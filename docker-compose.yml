@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  thor:
+    image: vechain/thor
+    volumes:
+      - ./data/vechain/.org.vechain.thor:/root/.org.vechain.thor
+    command: --network main --api-addr 0.0.0.0:8669
+    ports:
+      - "8669:8669"
+      - "11235:11235/udp"
+      - "11235:11235/tcp"
+
+  neo4j:
+    image: neo4j
+    ports: 
+    - "7474:7474"
+    - "7687:7687"
+    volumes:
+    - ./data/neo4j:/data

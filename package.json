@@ -1,0 +1,24 @@
+{
+  "name": "vechain-neo4j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RV1989/vechain-neo4j.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RV1989/vechain-neo4j/issues"
+  },
+  "homepage": "https://github.com/RV1989/vechain-neo4j#readme",
+  "dependencies": {
+    "neo4j-driver": "^1.7.6",
+    "thorify": "^1.4.0",
+    "web3": "^1.2.1"
+  }
+}
