@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RV1989/vechain-neo4j#readme",
   "dependencies": {
+    "lodash": "^4.17.15",
     "neo4j-driver": "^1.7.6",
     "thorify": "^1.4.0",
     "web3": "^1.2.1"
