@@ -59,4 +59,8 @@ typings/
 
 # next.js build output
 .next
-/data
+/data/neo4j/*/
+/data/vechain/*/
+
+
+
