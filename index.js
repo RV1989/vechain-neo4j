@@ -120,7 +120,7 @@ const main = async () => {
     const session = driver.session()
     await DeleteAll(session)
     let lastBlock = await web3.eth.getBlock('latest')
-    let firstBlock = await web3.eth.getBlock(lastBlock.number - 10000)
+    let firstBlock = await web3.eth.getBlock(lastBlock.number - 100)
     
     let blockNumber = _.range(firstBlock.number , lastBlock.number )
 
